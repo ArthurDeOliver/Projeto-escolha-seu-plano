@@ -77,12 +77,14 @@ body{
 }
 
 .assine{
-    margin-bottom: auto;
-    height: 50px;
+    /* margin-bottom: auto; */
+    /* height: 50px; */
+    padding: 15px 16px;
     border-radius: 5px;
-    display: flex;
+    text-align: center;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     background-color: rgb(203,226,0);
     width: 100%;
     text-decoration: none;
@@ -107,7 +109,7 @@ body{
     /* margin-left: 0; */
     /* padding: 15px; */
     /* background-color: red; */
-    height: 60%;
+    flex-grow: 1;
     /* margin-bottom: 20px; */
 }
 
@@ -208,7 +210,8 @@ header{
 }
 
 .box{
-
+    display: flex;
+    flex-direction: column;
     /* height: 900px; */
     box-shadow: 0 5px 15px -5px black;
     border-radius: 7px;
