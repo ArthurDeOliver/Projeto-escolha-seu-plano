@@ -77,7 +77,7 @@ body{
 }
 
 .assine{
-
+    margin-bottom: auto;
     height: 50px;
     border-radius: 5px;
     display: flex;
@@ -107,7 +107,7 @@ body{
     /* margin-left: 0; */
     /* padding: 15px; */
     /* background-color: red; */
-    height: 230px;
+    height: 60%;
     /* margin-bottom: 20px; */
 }
 
@@ -201,12 +201,15 @@ header{
 }
 
 .boxes{
+    /* height: 900px; */
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
 .box{
+
+    /* height: 900px; */
     box-shadow: 0 5px 15px -5px black;
     border-radius: 7px;
     padding: 30px;
