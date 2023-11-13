@@ -223,5 +223,8 @@ header{
 }
 
 .assine:hover{
-    background-color: rgb(153, 170, 1);
+    color: #ccc;
+    outline: 2px solid rgb(153, 170, 1);
+    background-color:  rgb(33,38,44);
+    /* background-color:  rgb(119, 133, 1); */
 }
