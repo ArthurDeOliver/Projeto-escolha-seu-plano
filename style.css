@@ -21,7 +21,9 @@ body *{
 }
 
 body{
-    margin-top: 0;
+    margin: 0 auto;
+    /* width: 90%; */
+    /* max-width: 1260px; */
     /* height: 650px; */
     display: flex;
     flex-direction: column;
@@ -44,15 +46,6 @@ body{
     color: white;
 }
 
-.title{
-
-    margin-left: 20px;
-    font-size: 25px;
-    /* text-decoration: none; */
-    text-transform: uppercase;
-    color: white;
-    /* background-color: white; */
-}
 
 .box{
     padding: 20px;
@@ -172,6 +165,10 @@ h2{
 }
 
 .title{
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+    font-size: 32px;
     /* font-weight: bold; */
     /* background-color: red; */
     /* width: 100%; */
