@@ -47,12 +47,6 @@ body{
 }
 
 
-.box{
-    padding: 20px;
-    border-radius: 5px;
-}
-
-
 .botao_assine{
     text-transform: uppercase;
     font-weight: bold;
@@ -154,6 +148,7 @@ body{
 } */
 
 h2{
+    letter-spacing: 2px;
     margin: 0;
     /* background-color: red; */
     text-transform: uppercase;
@@ -169,6 +164,7 @@ h2{
 }
 
 .title{
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: white;
     margin-left: 20px;
@@ -210,6 +206,8 @@ header{
 }
 
 .box{
+    box-shadow: 0 5px 15px -5px black;
+    border-radius: 7px;
     padding: 30px;
     color: white;
     /* padding: 5px; */
