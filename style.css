@@ -21,6 +21,7 @@ body *{
 }
 
 body{
+    min-width: 1000px;
     margin: 0 auto;
     /* width: 90%; */
     /* max-width: 1260px; */
