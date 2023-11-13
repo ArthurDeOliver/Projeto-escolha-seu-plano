@@ -64,12 +64,16 @@ body{
     /* width: 100%; */
 }
 
+
 .acoes_naveg:hover{
+    /* cursor:crosshair; mudança no cursor do mouse*/
+    /* pointer-events: none; não disparar nenhum evento */
     background-color: rgb(203,226,0);
     color: black;
 }
 
 .acoes_naveg{
+    /* pointer-events: none; */
     border-radius: 5px;
     /* background-color: rgb(203,226,0); */
     padding: 15px;
