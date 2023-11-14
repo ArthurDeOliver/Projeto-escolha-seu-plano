@@ -15,21 +15,15 @@ body *{
 }
 
 .all{
-
-    /* background-color: red; */
     width: 80%;
 }
 
 body{
     min-width: 1000px;
     margin: 0 auto;
-    /* width: 90%; */
-    /* max-width: 1260px; */
-    /* height: 650px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     background-color: rgb(12,16,19);
     font-family:'Roboto', sans-serif;
 }
@@ -39,7 +33,6 @@ body{
 .div_center_text{
     padding: 50px;
     display: flex;
-    /* background-color: red; */
     align-items: center;
     justify-content: center;
     font-size: 35px;
@@ -51,12 +44,9 @@ body{
 .botao_assine{
     text-transform: uppercase;
     font-weight: bold;
-    /* background-color: white; */
-    /* padding: 50px; */
     border-radius: 5px;
     display: flex;
 
-    /* width: 100%; */
 }
 
 
@@ -68,23 +58,16 @@ body{
 }
 
 .acoes_naveg{
-    /* pointer-events: none; */
     border-radius: 5px;
-    /* background-color: rgb(203,226,0); */
     padding: 15px;
     text-decoration: none;
     color: white;
 }
 
 .assine{
-    /* margin-bottom: auto; */
-    /* height: 50px; */
     padding: 15px 16px;
     border-radius: 5px;
     text-align: center;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     background-color: rgb(203,226,0);
     width: 100%;
     text-decoration: none;
@@ -99,22 +82,18 @@ body{
     color: #ccc;
     margin: 0 0 35px;
     padding: 16px;
-    /* display: inline-block; */
-    /* margin: 0; */
-    /* background-color: white; */
 }
 
 .list{
-    /* display: flex; */
-    /* margin-left: 0; */
-    /* padding: 15px; */
-    /* background-color: red; */
+    /* flex grow da proporção ao espaço que um item flex deve ocupar
+    setado como 1 ele cresce mais que os outros ou seja, ocupa mais espaço dentro do
+    container */
     flex-grow: 1;
-    /* margin-bottom: 20px; */
+
 }
 
 .itens{
-    /* margin-left: 15px; */
+
     line-height: 1.8;
 }
 
@@ -126,34 +105,12 @@ body{
 
 .preço{
     margin-top: 25px;
-    /* display: flex;
-    justify-content: flex-start; */
-    /* height: 90px; */
-    /* background-color: blue; */
 }
 
-
-/* 
-.mes{
-    margin-left: 5px;
-    margin-bottom: 4px;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    background-color: black;
-    
-} */
-
-/* .valor{
-    font-weight: bold;
-    font-size: 30px;
-} */
 
 h2{
     letter-spacing: 2px;
     margin: 0;
-    /* background-color: red; */
     text-transform: uppercase;
     height: 40px;
     border-bottom: 2px solid rgb(203,226,0);
@@ -162,7 +119,6 @@ h2{
 
 .nave{
     gap: 20px;
-    /* background-color: red; */
     list-style: none;
 }
 
@@ -172,9 +128,6 @@ h2{
     color: white;
     margin-left: 20px;
     font-size: 32px;
-    /* font-weight: bold; */
-    /* background-color: red; */
-    /* width: 100%; */
     height: 50px;
     display: flex;
     justify-content: center;
@@ -203,7 +156,7 @@ header{
 }
 
 .boxes{
-    /* height: 900px; */
+
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -212,12 +165,10 @@ header{
 .box{
     display: flex;
     flex-direction: column;
-    /* height: 900px; */
     box-shadow: 0 5px 15px -5px black;
     border-radius: 7px;
     padding: 30px;
     color: white;
-    /* padding: 5px; */
     width: 70%;
     background-color: rgb(33,38,44);
 }
@@ -226,5 +177,4 @@ header{
     color: #ccc;
     outline: 2px solid rgb(153, 170, 1);
     background-color:  rgb(33,38,44);
-    /* background-color:  rgb(119, 133, 1); */
 }
